@@ -591,10 +591,6 @@ input[type=submit]:hover {
         position: absolute;
         top: 400px;
     }
-    embed{
-        height: 400px;
-        width: 300px;
-    }
     .icon{
         width: 80px;
     }

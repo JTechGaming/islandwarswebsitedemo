@@ -547,7 +547,7 @@ input[type=submit]:hover {
     }
 }
 
-@media(max-width: 700px) /* General phones and samsung */
+@media(max-width: 700px) /* Most phones */
 {
 
     .text-box h1{
@@ -591,7 +591,7 @@ input[type=submit]:hover {
         position: absolute;
         top: 400px;
     }
-    iframe{
+    embed{
         height: 400px;
         width: 300px;
     }

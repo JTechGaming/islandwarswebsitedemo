@@ -1,6 +1,6 @@
 var navLinks = document.getElementById("navLinks");
 var support = document.getElementById('contact-support-btn');
-var scrolldown = document.getElementById('scroll-down-btn');
+var contact = document.getElementById('chatbtn');
 
 function delay(time) {
     return new Promise(resolve => setTimeout(resolve, time));
@@ -19,6 +19,12 @@ if(support != null) {
         alert('click "ok" for "mental" support');
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
     });
+}
+
+if(contact != null) {
+  contact.addEventListener('click', function(){
+      window.location.href="contact.html";
+  });
 }
 
 function reveal() {

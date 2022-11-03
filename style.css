@@ -15,6 +15,15 @@
     background-size: cover;
     position: relative;
 }
+.contactheader
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/contactus.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 nav
 {
     display: flex;
@@ -205,7 +214,7 @@ input[type=text], select, textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
   
 /* Style the submit button with a specific background color etc */
@@ -217,6 +226,20 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
+
+.formtitle
+{
+    color: darkgray;
+}
+
+.contact-us-form-fields{
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    width: 100%;
+    padding: 40px 40px;
+    background: #1E1D1C;
+}
   
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
@@ -225,7 +248,7 @@ input[type=submit]:hover {
   
 /* Add a background color and some padding around the form */
 .container .form .contact{
-    border-radius: 5px;
+    border-radius: 50px;
     background-color: #f2f2f2;
     padding: 20px;
 }
@@ -391,6 +414,14 @@ input[type=submit]:hover {
     left: 100px;
     color: darkgrey;
     font-size: 12px;
+}
+.worldmap-btn{
+    position: relative;
+    top: 40px;
+}
+.worldmap-box{
+    align-items: center;
+    text-align: center;
 }
 
 @media(max-width: 1800px) /* Ipads / Tablets / tiny computer screens */

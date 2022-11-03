@@ -28,9 +28,11 @@
             </div>
             <ion-icon name="menu-outline" onclick="showMenu()"></ion-icon>
         </nav>
-        <div class="text-box">
+        <div class="text-box worldmap-box">
             <h1>World map</h1>
-            <embed src="http://map.islandwars.us:39501/" height="600" width="1000" style="border: 1px solid white; box-shadow: 0 0 5px black;"></embed>
+            <label>Due to security problems. We can't directly display the worldmap on this page. To visit the webpage, <br> you can just click the button below. This will bring you to the <br>worldmap website. Maybe you will notice the "Not Secure" popup on the left of the website url. <br>Don't worry! We are not trying to hack you! This is just a problem with the worldmap plugin we use on the main islandwars server. <br> And yes, we have already informed them about this issue, but they told us their not gonna fix it, <br>due to SSL certificates not being free, and the plugin being free, their just not going to do that. <br>Sorry for the inconvenience, but this is just the situation.<br> Thanks for listening.<br> </label>
+            <a href="http://map.islandwars.us:39501/" class="hero-btn worldmap-btn reveal" id="worldmap-button">Click to open the worldmap</a>
+            <!--<embed src="http://map.islandwars.us:39501/" height="600" width="1000" style="border: 1px solid white; box-shadow: 0 0 5px black;"></embed>-->
         </div>
     </section>
     <!-- Start of Contact button Code -->
